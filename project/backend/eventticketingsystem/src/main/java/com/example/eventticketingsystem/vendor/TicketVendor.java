@@ -1,27 +1,34 @@
 package com.example.eventticketingsystem.vendor;
 
+import com.example.eventticketingsystem.model.Ticket;
 import com.example.eventticketingsystem.model.TicketPool;
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class TicketVendor implements Runnable{
 
     private final String vendorName;
     private final TicketPool ticketPool;
-    private final int ticketReleaseRate;
+    private final int ticketsToAdd;
+    private static final AtomicInteger ticketIdGenerator = new AtomicInteger(1);
 
     public TicketVendor(String vendorName, TicketPool ticketPool, int ticketReleaseRate) {
         this.vendorName = vendorName;
         this.ticketPool = ticketPool;
-        this.ticketReleaseRate = ticketReleaseRate;
+        this.ticketsToAdd = ticketReleaseRate;
     }
 
     @Override
     public void run() {
         while (true) {
-            boolean added = ticketPool.addTickets(ticketReleaseRate);
-            if(added) {
-                System.out.println(vendorName + " added " + ticketReleaseRate + " tickets to the pool");
+            List<Ticket> tickets = new ArrayList<>();
+            for (int i = 0; i < ticketsToAdd; i++) {
+                tickets.add(new Ticket(ticketIdGenerator.getAndIncrement()));
             }
-            try{
+            ticketPool.addTickets(tickets);
+            try {
                 Thread.sleep(900000);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();

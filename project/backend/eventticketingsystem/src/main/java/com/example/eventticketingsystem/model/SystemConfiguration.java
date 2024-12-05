@@ -1,12 +1,19 @@
 package com.example.eventticketingsystem.model;
 
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.Positive;
+
 import java.io.Serializable;
 
 public class SystemConfiguration {
 
+    @Positive
     private int totalTickets;
+    @Positive
     private int ticketReleaseRate;
+    @Positive
     private int customerRetrievalRate;
+    @Positive
     private int maxTicketCapacity;
 
     public int getTotalTickets() {
