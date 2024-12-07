@@ -22,7 +22,7 @@ public class TicketManagementService {
 
     public synchronized TicketPool getTicketPool() {
         if (ticketPool == null) {
-            throw new IllegalStateException("Ticket pool has not been initialized.");
+            return new TicketPool(0);
         }
         return ticketPool;
     }

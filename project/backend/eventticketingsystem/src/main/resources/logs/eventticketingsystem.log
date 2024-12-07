@@ -1,0 +1,90 @@
+2024-12-06 21:28:52 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Starting EventticketingsystemApplication using Java 23.0.1 with PID 2288 (C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem\target\classes started by NisalaPremathilaka in C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem)
+2024-12-06 21:28:52 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-06 21:28:57 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Started EventticketingsystemApplication in 4.674 seconds (process running for 5.159)
+2024-12-06 22:48:48 [http-nio-8080-exec-2] INFO  c.e.e.utils.ConfigurationUtil - Loading configuration from file: src/main/resources/configurations/system-config.json
+2024-12-06 23:15:05 [http-nio-8080-exec-4] INFO  c.e.e.utils.ConfigurationUtil - Loading configuration from file: src/main/resources/configurations/system-config.json
+2024-12-06 23:27:12 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Starting EventticketingsystemApplication using Java 23.0.1 with PID 8340 (C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem\target\classes started by NisalaPremathilaka in C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem)
+2024-12-06 23:27:12 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-06 23:27:16 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Started EventticketingsystemApplication in 4.155 seconds (process running for 4.589)
+2024-12-06 23:27:51 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Starting EventticketingsystemApplication using Java 23.0.1 with PID 28680 (C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem\target\classes started by NisalaPremathilaka in C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem)
+2024-12-06 23:27:51 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-06 23:27:54 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Started EventticketingsystemApplication in 3.775 seconds (process running for 4.178)
+2024-12-07 04:31:08 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Starting EventticketingsystemApplication using Java 23.0.1 with PID 8740 (C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem\target\classes started by NisalaPremathilaka in C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem)
+2024-12-07 04:31:08 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 04:31:12 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Started EventticketingsystemApplication in 4.665 seconds (process running for 5.196)
+2024-12-07 04:47:20 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Starting EventticketingsystemApplication using Java 23.0.1 with PID 9700 (C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem\target\classes started by NisalaPremathilaka in C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem)
+2024-12-07 04:47:20 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 04:47:24 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Started EventticketingsystemApplication in 4.533 seconds (process running for 4.954)
+2024-12-07 04:47:54 [http-nio-8080-exec-3] ERROR c.e.e.e.GlobalExceptionHandler - An error occurred: No static resource api/configuration/initialize-ticket-pool.
+2024-12-07 04:48:07 [http-nio-8080-exec-5] INFO  c.e.e.utils.ConfigurationUtil - Loading configuration from file: src/main/resources/configurations/system-config.json
+2024-12-07 04:48:07 [http-nio-8080-exec-5] INFO  c.e.e.s.TicketManagementService - Ticket pool initialized with max capacity: 1000
+2024-12-07 13:48:39 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Starting EventticketingsystemApplication using Java 23.0.1 with PID 23336 (C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem\target\classes started by NisalaPremathilaka in C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem)
+2024-12-07 13:48:39 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 13:48:46 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Started EventticketingsystemApplication in 8.524 seconds (process running for 9.178)
+2024-12-07 13:52:59 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Starting EventticketingsystemApplication using Java 23.0.1 with PID 35440 (C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem\target\classes started by NisalaPremathilaka in C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem)
+2024-12-07 13:52:59 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 13:53:04 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Started EventticketingsystemApplication in 5.769 seconds (process running for 6.291)
+2024-12-07 13:56:59 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Starting EventticketingsystemApplication using Java 23.0.1 with PID 34276 (C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem\target\classes started by NisalaPremathilaka in C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem)
+2024-12-07 13:56:59 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 13:57:04 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Started EventticketingsystemApplication in 5.394 seconds (process running for 6.104)
+2024-12-07 14:01:03 [http-nio-8080-exec-3] INFO  c.e.e.utils.ConfigurationUtil - Loading configuration from file: src/main/resources/configurations/system-config.json
+2024-12-07 14:01:04 [http-nio-8080-exec-3] INFO  c.e.e.s.TicketManagementService - Ticket pool initialized with max capacity: 1000
+2024-12-07 14:13:28 [http-nio-8080-exec-4] INFO  c.e.e.utils.ConfigurationUtil - Loading configuration from file: src/main/resources/configurations/system-config.json
+2024-12-07 14:13:30 [http-nio-8080-exec-3] INFO  c.e.e.utils.ConfigurationUtil - Loading configuration from file: src/main/resources/configurations/system-config.json
+2024-12-07 14:36:07 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Starting EventticketingsystemApplication using Java 23.0.1 with PID 34528 (C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem\target\classes started by NisalaPremathilaka in C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem)
+2024-12-07 14:36:07 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 14:36:12 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Started EventticketingsystemApplication in 5.925 seconds (process running for 6.492)
+2024-12-07 14:42:07 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Starting EventticketingsystemApplication using Java 23.0.1 with PID 28752 (C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem\target\classes started by NisalaPremathilaka in C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem)
+2024-12-07 14:42:07 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 14:42:12 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Started EventticketingsystemApplication in 5.6 seconds (process running for 6.148)
+2024-12-07 15:01:56 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Starting EventticketingsystemApplication using Java 23.0.1 with PID 30080 (C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem\target\classes started by NisalaPremathilaka in C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem)
+2024-12-07 15:01:56 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 15:02:01 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Started EventticketingsystemApplication in 5.6 seconds (process running for 6.134)
+2024-12-07 15:08:41 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Starting EventticketingsystemApplication using Java 23.0.1 with PID 34968 (C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem\target\classes started by NisalaPremathilaka in C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem)
+2024-12-07 15:08:41 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 15:08:45 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Started EventticketingsystemApplication in 5.034 seconds (process running for 5.633)
+2024-12-07 15:12:25 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Starting EventticketingsystemApplication using Java 23.0.1 with PID 20220 (C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem\target\classes started by NisalaPremathilaka in C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem)
+2024-12-07 15:12:25 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 15:12:30 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Started EventticketingsystemApplication in 5.61 seconds (process running for 6.17)
+2024-12-07 15:28:07 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Starting EventticketingsystemApplication using Java 23.0.1 with PID 32332 (C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem\target\classes started by NisalaPremathilaka in C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem)
+2024-12-07 15:28:07 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 15:28:12 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Started EventticketingsystemApplication in 5.626 seconds (process running for 6.175)
+2024-12-07 15:30:20 [http-nio-8080-exec-1] INFO  c.e.e.utils.ConfigurationUtil - Loading configuration from file: src/main/resources/configurations/system-config.json
+2024-12-07 15:30:20 [http-nio-8080-exec-1] INFO  c.e.e.s.TicketManagementService - Ticket pool initialized with max capacity: 1000
+2024-12-07 15:38:51 [http-nio-8080-exec-5] INFO  c.e.e.utils.ConfigurationUtil - Loading configuration from file: src/main/resources/configurations/system-config.json
+2024-12-07 15:38:51 [http-nio-8080-exec-5] INFO  c.e.e.s.TicketManagementService - Ticket pool initialized with max capacity: 1000
+2024-12-07 15:38:51 [Thread-7] INFO  c.e.e.model.TicketPool - Added 10 tickets. Current pool size: 10
+2024-12-07 15:38:51 [Thread-8] INFO  c.e.e.model.TicketPool - Removed 3 tickets. Current pool size: 7
+2024-12-07 15:38:51 [Thread-8] INFO  c.e.e.customer.Customer - Nisala purchased tickets: [Ticket{id=1}, Ticket{id=2}, Ticket{id=3}]
+2024-12-07 15:38:58 [http-nio-8080-exec-3] INFO  c.e.e.utils.ConfigurationUtil - Loading configuration from file: src/main/resources/configurations/system-config.json
+2024-12-07 15:38:58 [http-nio-8080-exec-3] INFO  c.e.e.s.TicketManagementService - Ticket pool initialized with max capacity: 1000
+2024-12-07 15:38:58 [Thread-9] INFO  c.e.e.model.TicketPool - Added 10 tickets. Current pool size: 10
+2024-12-07 15:38:58 [Thread-10] INFO  c.e.e.model.TicketPool - Removed 3 tickets. Current pool size: 7
+2024-12-07 15:38:58 [Thread-10] INFO  c.e.e.customer.Customer - Nisala purchased tickets: [Ticket{id=11}, Ticket{id=12}, Ticket{id=13}]
+2024-12-07 15:39:12 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Starting EventticketingsystemApplication using Java 23.0.1 with PID 34656 (C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem\target\classes started by NisalaPremathilaka in C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem)
+2024-12-07 15:39:12 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 15:39:16 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Started EventticketingsystemApplication in 5.281 seconds (process running for 5.822)
+2024-12-07 15:42:59 [http-nio-8080-exec-9] INFO  c.e.e.utils.ConfigurationUtil - Loading configuration from file: src/main/resources/configurations/system-config.json
+2024-12-07 15:42:59 [http-nio-8080-exec-9] INFO  c.e.e.s.TicketManagementService - Ticket pool initialized with max capacity: 1000
+2024-12-07 15:42:59 [Thread-7] INFO  c.e.e.model.TicketPool - Added 10 tickets. Current pool size: 10
+2024-12-07 15:42:59 [Thread-8] INFO  c.e.e.model.TicketPool - Removed 3 tickets. Current pool size: 7
+2024-12-07 15:42:59 [Thread-8] INFO  c.e.e.customer.Customer - Nisala purchased tickets: [Ticket{id=1}, Ticket{id=2}, Ticket{id=3}]
+2024-12-07 15:45:59 [Thread-8] INFO  c.e.e.model.TicketPool - Removed 3 tickets. Current pool size: 4
+2024-12-07 15:45:59 [Thread-8] INFO  c.e.e.customer.Customer - Nisala purchased tickets: [Ticket{id=4}, Ticket{id=5}, Ticket{id=6}]
+2024-12-07 15:49:00 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Starting EventticketingsystemApplication using Java 23.0.1 with PID 11260 (C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem\target\classes started by NisalaPremathilaka in C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem)
+2024-12-07 15:49:00 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 15:49:05 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Started EventticketingsystemApplication in 5.426 seconds (process running for 6.044)
+2024-12-07 15:50:01 [http-nio-8080-exec-9] INFO  c.e.e.utils.ConfigurationUtil - Loading configuration from file: src/main/resources/configurations/system-config.json
+2024-12-07 15:50:01 [http-nio-8080-exec-9] INFO  c.e.e.s.TicketManagementService - Ticket pool initialized with max capacity: 1000
+2024-12-07 15:50:01 [Thread-7] INFO  c.e.e.model.TicketPool - Added 10 tickets. Current pool size: 10
+2024-12-07 15:50:01 [Thread-8] INFO  c.e.e.model.TicketPool - Removed 3 tickets. Current pool size: 7
+2024-12-07 15:50:01 [Thread-8] INFO  c.e.e.customer.Customer - Anuradha purchased tickets: [Ticket{id=1}, Ticket{id=2}, Ticket{id=3}]
+2024-12-07 15:51:02 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Starting EventticketingsystemApplication using Java 23.0.1 with PID 26696 (C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem\target\classes started by NisalaPremathilaka in C:\projects\Real-Time-Event-Ticketing-System\project\backend\eventticketingsystem)
+2024-12-07 15:51:02 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 15:51:08 [restartedMain] INFO  c.e.e.EventticketingsystemApplication - Started EventticketingsystemApplication in 6.411 seconds (process running for 6.989)
+2024-12-07 15:51:28 [http-nio-8080-exec-9] INFO  c.e.e.utils.ConfigurationUtil - Loading configuration from file: src/main/resources/configurations/system-config.json
+2024-12-07 15:51:28 [http-nio-8080-exec-9] INFO  c.e.e.s.TicketManagementService - Ticket pool initialized with max capacity: 1000
+2024-12-07 15:51:28 [Thread-7] INFO  c.e.e.model.TicketPool - Added 10 tickets. Current pool size: 10
+2024-12-07 15:51:28 [Thread-8] INFO  c.e.e.model.TicketPool - Removed 3 tickets. Current pool size: 7
+2024-12-07 15:51:28 [Thread-8] INFO  c.e.e.customer.Customer - Anuradha purchased tickets: [Ticket{id=1}, Ticket{id=2}, Ticket{id=3}]
+2024-12-07 15:51:31 [http-nio-8080-exec-3] INFO  c.e.e.s.TicketManagementService - Ticket pool cleared successfully.

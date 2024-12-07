@@ -1,0 +1,28 @@
+.navbar-right-padding {
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+.navbar-right-padding .nav-link {
+  color: black !important; /* Ensure the color takes priority */
+}
+
+.navbar-right-padding .nav-link:hover {
+  color: #555; /* Optional: Adjust hover color if needed */
+}
+
+.navbar-brand {
+  color: navy; /* Change this to your desired color (e.g., blue) */
+  font-size: 50px; /* Adjust font size as needed */
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.navbar-brand:hover {
+  color: #0056b3; /* Optional: Adjust hover color */
+  text-decoration: none; /* Optional: Remove underline on hover */
+}
+
+.navbar-border {
+  border-bottom: 3px solid navy;
+}

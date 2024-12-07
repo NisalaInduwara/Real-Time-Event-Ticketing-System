@@ -1,0 +1,84 @@
+<div class="container mt-4">
+  <h3>Configuration</h3>
+  <form [formGroup]="configurationForm" (ngSubmit)="saveConfigurations()">
+    <div class="mb-3">
+      <label for="totalTickets" class="form-label">Total Tickets</label>
+      <input
+        id="totalTickets"
+        type="number"
+        class="form-control"
+        formControlName="totalTickets"
+      />
+      <div
+        *ngIf="
+          configurationForm.controls['totalTickets'].invalid &&
+          configurationForm.controls['totalTickets'].touched
+        "
+        class="text-danger"
+      >
+        Total Tickets must be greater than 0.
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="ticketReleaseRate" class="form-label"
+        >Ticket Release Rate</label
+      >
+      <input
+        id="ticketReleaseRate"
+        type="number"
+        class="form-control"
+        formControlName="ticketReleaseRate"
+      />
+      <div
+        *ngIf="
+          configurationForm.controls['ticketReleaseRate'].invalid &&
+          configurationForm.controls['ticketReleaseRate'].touched
+        "
+        class="text-danger"
+      >
+        Ticket Release Rate must be greater than 0.
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="customerRetrievalRate" class="form-label"
+        >Customer Retrieval Rate</label
+      >
+      <input
+        id="customerRetrievalRate"
+        type="number"
+        class="form-control"
+        formControlName="customerRetrievalRate"
+      />
+      <div
+        *ngIf="
+          configurationForm.controls['customerRetrievalRate'].invalid &&
+          configurationForm.controls['customerRetrievalRate'].touched
+        "
+        class="text-danger"
+      >
+        Customer Retrieval Rate must be greater than 0.
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="maxTicketCapacity" class="form-label"
+        >Max Ticket Capacity</label
+      >
+      <input
+        id="maxTicketCapacity"
+        type="number"
+        class="form-control"
+        formControlName="maxTicketCapacity"
+      />
+      <div
+        *ngIf="
+          configurationForm.controls['maxTicketCapacity'].invalid &&
+          configurationForm.controls['maxTicketCapacity'].touched
+        "
+        class="text-danger"
+      >
+        Max Ticket Capacity must be greater than 0.
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+  </form>
+</div>

@@ -1,0 +1,44 @@
+<div class="home-container">
+  <h1>Welcome to the BuyTickets.lk</h1>
+  <div class="ticket-info">
+    <h3>
+      Tickets Available: <span>{{ currentTicketSize }}</span>
+    </h3>
+  </div>
+  <div class="system-control">
+    <button
+      (click)="toggleSystem()"
+      [ngClass]="systemRunning ? 'stop-button' : 'start-button'"
+    >
+      {{ systemRunning ? "Stop" : "Start" }} System
+    </button>
+  </div>
+  <div class="card-container">
+    <div class="card">
+      <h2>Customers</h2>
+      <ul>
+        <li *ngFor="let customer of customers">
+          {{ customer }}
+          <button (click)="deleteCustomer(customer)">Delete</button>
+        </li>
+      </ul>
+      <input [(ngModel)]="newCustomerName" placeholder="Add Customer" />
+      <div class="add-button-container">
+        <button (click)="addCustomer(newCustomerName)">Add</button>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Vendors</h2>
+      <ul>
+        <li *ngFor="let vendor of vendors">
+          {{ vendor }}
+          <button (click)="deleteVendor(vendor)">Delete</button>
+        </li>
+      </ul>
+      <input [(ngModel)]="newVendorName" placeholder="Add Vendor" />
+      <div class="add-button-container">
+        <button (click)="addVendor(newVendorName)">Add</button>
+      </div>
+    </div>
+  </div>
+</div>

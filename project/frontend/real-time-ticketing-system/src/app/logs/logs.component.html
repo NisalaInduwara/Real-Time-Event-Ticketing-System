@@ -1,0 +1,19 @@
+<div class="container mt-4">
+  <h3>Log Entries</h3>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let log of logs">
+        <td>{{ log.date }}</td>
+        <td>{{ log.time }}</td>
+        <td>{{ log.description }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
