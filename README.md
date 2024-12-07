@@ -69,3 +69,73 @@ Start the Angular application:
 ```bash
 ng serve
 ```
+
+## Database Setup (SQL)
+
+- Create Database: Create a database named event_ticketing_system in your SQL server.
+- Configure Database Connection: Modify the application.properties file in the backend to configure your database connection:
+
+```bash
+spring.datasource.url=jdbc:mysql://localhost:3306/event_ticketing_system
+spring.datasource.username=your-database-username
+spring.datasource.password=your-database-password
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+```
+
+- Run Database Migration: Run any necessary database migration scripts or use JPA/Hibernate to automatically set up tables.
+
+## Usage Instructions
+
+1. Backend Configuration:
+
+- The backend can be configured by modifying the application.properties file located in src/main/resources.
+- Key configuration options include database connection details, server port, and application-specific settings like ticket pool size and event details.
+
+2. Frontend Configuration:
+
+- The frontend can be configured by modifying the src/environments/environment.ts file.
+- Set the backend API URL in the apiUrl variable for the frontend to interact with the backend.
+
+## Starting the System
+
+Once the backend and frontend are configured, you can start both the backend and frontend services.
+
+1. Start the backend:
+
+```bash
+mvn spring-boot:run
+```
+
+2. Start the frontend:
+
+```bash
+ng serve
+```
+
+The system is now running, and you can access the application in your browser at http://localhost:4200.
+
+## Explanation of UI Controls
+
+1. Event Dashboard:
+
+- Create Event: A form that allows admins to create new events by specifying details like event name, date, location, and ticket prices.
+- View Events: A list of events, with options to view, edit, or delete them.
+
+2. Ticket Booking:
+
+- Available Tickets: A display of available tickets for the selected event.
+- Booking Form: A form where users can select the number of tickets they wish to purchase, enter payment details, and finalize their booking.
+
+3. User Profile:
+
+- Account Settings: Allows users to view and edit their account information, including personal details and past ticket bookings.
+- Booking History: A list of events the user has attended, with options to download tickets or view booking details.
+
+4. Admin Controls:
+
+- Manage Customers: An interface where admins can add, delete, or view customer details.
+- Ticket Pool Management: A control to view and manage the number of available tickets for each event.
+
+5. Error Handling:
+
+- The UI provides error messages for invalid actions (e.g., invalid payment details, unavailable tickets) and guides the user through the correction process.
