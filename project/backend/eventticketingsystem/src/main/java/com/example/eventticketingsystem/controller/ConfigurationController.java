@@ -7,6 +7,10 @@ import com.example.eventticketingsystem.service.*;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,6 +21,7 @@ import java.util.List;
 import java.util.Map;
 
 
+@Api(tags = "Configuration Management")
 @RestController
 @RequestMapping("/api/configuration")
 @CrossOrigin(origins = "*")
@@ -37,7 +42,13 @@ public class ConfigurationController {
     @Autowired
     private LogService logService;
 
+
     @GetMapping
+    @ApiOperation(value = "Retrieve the current system configuration", response = SystemConfiguration.class)
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "Successfully retrieved configuration"),
+            @ApiResponse(code = 500, message = "Internal server error")
+    })
     public ResponseEntity<SystemConfiguration> getConfiguration() {
         try {
             SystemConfiguration configuration = configurationService.getConfiguration();
@@ -47,7 +58,13 @@ public class ConfigurationController {
         }
     }
 
+
     @PostMapping
+    @ApiOperation(value = "Save a new system configuration", response = Map.class)
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "Configuration saved successfully"),
+            @ApiResponse(code = 500, message = "Internal server error")
+    })
     public ResponseEntity<Map<String, String>> saveConfiguration(@RequestBody SystemConfiguration configuration) {
         Map<String, String> response = new HashMap<>();
         try {
@@ -60,7 +77,13 @@ public class ConfigurationController {
         }
     }
 
+
     @PostMapping("/start")
+    @ApiOperation(value = "Start the ticketing system", response = Map.class)
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "System started successfully"),
+            @ApiResponse(code = 500, message = "Internal server error")
+    })
     public ResponseEntity<Map<String, String>> startSystem() {
         // Prepare the response map to send as JSON
         Map<String, String> response = new HashMap<>();
@@ -85,7 +108,13 @@ public class ConfigurationController {
     }
 
 
+
     @PostMapping("/stop")
+    @ApiOperation(value = "Stop the ticketing system", response = Map.class)
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "System stopped successfully"),
+            @ApiResponse(code = 500, message = "Internal server error")
+    })
     public ResponseEntity<Map<String, String>> stopSystem() {
         // Prepare the response map to send as JSON
         Map<String, String> response = new HashMap<>();
@@ -114,6 +143,7 @@ public class ConfigurationController {
         }
     }
 
+
     @PostMapping("/add-customer")
     public ResponseEntity<Map<String, String>> addCustomer(@RequestBody String customerNameJson) throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
@@ -135,6 +165,7 @@ public class ConfigurationController {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(response);  // HTTP 500
         }
     }
+
 
     @DeleteMapping("/delete-customer")
     public ResponseEntity<Map<String, String>> deleteCustomerByName(@RequestParam String customerName) {
@@ -208,10 +239,12 @@ public class ConfigurationController {
         return customerService.getCustomers();
     }
 
+
     @GetMapping("/vendors")
     public List<String> getVendors() {
         return ticketVendorService.getVendors();
     }
+
 
     @GetMapping("/log-entries")
     public List<LogEntry> getLogEntries() {

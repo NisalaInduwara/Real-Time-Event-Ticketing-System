@@ -30,7 +30,7 @@ public class Customer implements Runnable{
                 logger.warn("{} could not purchase tickets. Not enough available.", customerName);
             }
             try {
-                Thread.sleep(180000); // Simulate time delay between purchases
+                Thread.sleep(120000); // Simulate time delay between purchases
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
                 break;

@@ -29,7 +29,7 @@ public class TicketVendor implements Runnable{
             }
             ticketPool.addTickets(tickets);
             try {
-                Thread.sleep(900000);
+                Thread.sleep(60000);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
                 break;
